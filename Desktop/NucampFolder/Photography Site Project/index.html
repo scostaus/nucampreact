@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSC</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<link rel=" preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<!--Landing Banner-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="row">
+        <div class="col d-xs-none d-sm-none d-md-block">
+            <a class="navbar-brand mx-2" href="#">
+                <img src="./Media/PSP-01.png" hreft="#" width="12%" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="row d-flex align-self-end mx-2">
+        <div class="col justify-content-center">
+            <div class="collapse navbar-collapse mx-auto" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Images</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <button class="navbar-toggler mx-auto px-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</nav>
+
+<header>
+
+    <div id="landing-banner">
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./Media/kayandkevin-photo-download-1of1/unSplash/unSplashFamily.png"
+                                class="w-100 d-block" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Media/kayandkevin-photo-download-1of1/unSplash/unSplashRoses.png"
+                                class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Media/kayandkevin-photo-download-1of1/unSplash/unSplashGirlLayingDown.png"
+                                class="d-block w-100" alt="">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</header>
+
+<body>
+
+    <main>
+        <!--Bio Section-->
+
+        <div class="row review-header d-flex justify-content-center w-50 mt-4 mb-4 pb-2">
+            <div class="col-12 mt-3">
+                <h3>About Me</h3>
+            </div>
+        </div>
+
+        <div id="bio-section" class="container-fluid">
+            <div class="row">
+                <div class="col">
+
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+
+                <div class="col-sm-12 col-md-4 mt-sm-3 col-xs-auto">
+                    <div class="container d-flex justify-content-center">
+                        <div class="bio-image">
+                            <img src="./Media/BioPic2.png" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-8 mt-sm-3 d-flex justify-content-center">
+                    <div class="card align-items-center" style="width: 45rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas facilis
+                                reiciendis ullam! Ut nam delectus, repellendus magni perspiciatis eligendi quas! Nihil
+                                quisquam, magni quaerat et recusandae neque provident omnis ullam.Lorem, ipsum dolor sit
+                                amet consectetur adipisicing elit. Quas facilis
+                                reiciendis ullam! Ut nam delectus, repellendus magni perspiciatis eligendi quas! Nihil
+                                quisquam, magni quaerat et recusandae neque provident omnis ullam.</p>
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!--Galleries--Static Image Opens to Modal with Carousel-->
+
+        <div class="row review-header d-flex justify-content-center w-50 mb-4">
+            <div class="col-12 mt-3">
+                <h3>Gallery</h3>
+            </div>
+        </div>
+
+        <div class="gallery-static pt-2">
+            <div class="row mt-4 pt-2 mb-4 pb-2" id="gallery" data-toggle="modal" data-target="#galleryModal">
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <figure><img class="gallery-static-img w-100" data-target="#carouselExample" data-slide-to="0"
+                            src="./Media/GalleryThumbnail1.png"></figure>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <figure><img class="gallery-static-img w-100" data-target="#carouselExample" data-slide-to="1"
+                            src="./Media/GalleryThumbnail2.png"></figure>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <figure><img class="gallery-static-img w-100" data-target="#carouselExample" data-slide-to="2"
+                            src="./Media/GalleryThumbnail3.png"></figure>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <figure><img class="gallery-static-img w-100" data-target="#carouselExample" data-slide-to="3"
+                            src="./Media/GalleryThumbnail6.png"></figure>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <figure><img class="gallery-static-img w-100" data-target="#carouselExample" data-slide-to="0"
+                            src="./Media/GalleryThumbnail7.png"></figure>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <figure><img class="gallery-static-img w-100" data-target="#carouselExample" data-slide-to="1"
+                            src="./Media/GalleryThumbnail8.png"></figure>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <figure><img class="gallery-static-img w-100" data-target="#carouselExample" data-slide-to="2"
+                            src="./Media/GalleryThumbnail9.png"></figure>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <figure><img class="gallery-static-img w-100" data-target="#carouselExample" data-slide-to="3"
+                            src="./Media/GalleryThumbnail5.png"></figure>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="galleryModal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100"
+                                        src="./Media/Placeholder/artem-labunsky-najEoVoak9U-unsplash.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100"
+                                        src="./Media/Placeholder/daniel-sessler-LsqF59OOEC0-unsplash.jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100"
+                                        src="./Media/Placeholder/giorgi-iremadze-cHE74pPOsdQ-unsplash(1).jpg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100"
+                                        src="./Media/Placeholder/nicontents-kpecdEdzMWU-unsplash.jpg">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Reviews Section-->
+
+        <div id="review-section mt-2 pt-2">
+            <div class="row review-header d-flex justify-content-center w-50 mb-4">
+                <div class="col-12 mt-3">
+                    <h3>Kind Words</h3>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="col ml-2 mt-4">
+                        <img src="./Media/Untitled design(2).png" alt="">
+                    </div>
+                    <div class="col mt-4">
+                        <img src="./Media/Untitled design(2).png" alt="">
+                    </div>
+                    <div class="col mt-4">
+                        <img src="./Media/Untitled design(2).png" alt="">
+                    </div>
+                </div>
+
+                <div class="row text-center mt-3">
+                    <div class="col ml-2">
+                        <h4>Angela & Dean</h4>
+                    </div>
+                    <div class="col">
+                        <h3>Angela H.</h3>
+                    </div>
+                    <div class="col">
+                        <h3>John & Amber </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+
+                <div class="col col-md-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                        voluptates quidem
+                        repellat suscipit atque! Vero magnam nesciunt, ex excepturi natus similique!
+                        Ad
+                        possimus alias saepe nulla, nisi nobis porro voluptate?</p>
+                </div>
+                <div class="col col-md-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                        voluptates quidem
+                        repellat suscipit atque! Vero magnam nesciunt, ex excepturi natus similique!
+                        Ad
+                        possimus alias saepe nulla, nisi nobis porro voluptate?</p>
+                </div>
+                <div class="col col-md-4">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                        voluptates quidem
+                        repellat suscipit atque! Vero magnam nesciunt, ex excepturi natus similique!
+                        Ad
+                        possimus alias saepe nulla, nisi nobis porro voluptate?</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+        </div>
+        <div class="col col-md-3"></div>
+
+        <div class="row justify-content-end">
+            <div class="col col-auto">
+                <a class="btn btn-primary position-relative mb-3" href="#" role="button">Link</a>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="div">
+            <div class="row">
+                <div class="col col-md-6"></div>
+                <div class="col col-md-6"></div>
+            </div>
+        </div>
+
+        <div class="div">
+            <div class="row">
+                <div class="col col-md-6"></div>
+                <div class="col col-md-6"></div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+    </script>
+
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+    </script>
+
+
+</body>
+
+
+</html>
